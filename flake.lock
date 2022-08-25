@@ -1,0 +1,53 @@
+{
+  "nodes": {
+    "golangci-lint-x86_64-darwin": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-rC5+gHKyk+zZr+V52fszY3rGrH9i5g0O7oRWOAXM6mA=",
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-darwin-amd64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-darwin-amd64.tar.gz"
+      }
+    },
+    "golangci-lint-x86_64-linux": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-0gpRMARQAPvSVTPG39PGa6/oZVeQodgBHS0I6hpjU3g=",
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-linux-amd64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-linux-amd64.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661262176,
+        "narHash": "sha256-42FXNd2B0QECaULG0Vx+oYzQ9euKcmlg2gmX2D+HbKI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b9fd420fa535fd254c6f1f26df770b32a9dc98b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "golangci-lint-x86_64-darwin": "golangci-lint-x86_64-darwin",
+        "golangci-lint-x86_64-linux": "golangci-lint-x86_64-linux",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
