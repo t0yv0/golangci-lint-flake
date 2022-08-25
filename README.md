@@ -1,2 +1,3 @@
-# golangci-linux-flake
-Package golangci-linux as a Nix flake
+# golangci-lint-flake
+
+Packages golangci-lint as a Nix flake.
