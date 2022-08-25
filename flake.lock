@@ -3,25 +3,25 @@
     "golangci-lint-x86_64-darwin": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-rC5+gHKyk+zZr+V52fszY3rGrH9i5g0O7oRWOAXM6mA=",
+        "narHash": "sha256-+mls/tU56kRwQFkqWK7uQ12FhLDBvVSkujQgrn5H6Pc=",
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.49.0/golangci-lint-1.49.0-darwin-amd64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.49.0/golangci-lint-1.49.0-darwin-amd64.tar.gz"
       }
     },
     "golangci-lint-x86_64-linux": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-0gpRMARQAPvSVTPG39PGa6/oZVeQodgBHS0I6hpjU3g=",
+        "narHash": "sha256-YpQuzK73HPjqeaT2SsLkWMyUDhn+lz2tevt1bNwCl2c=",
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-linux-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.49.0/golangci-lint-1.49.0-linux-amd64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.48.0/golangci-lint-1.48.0-linux-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.49.0/golangci-lint-1.49.0-linux-amd64.tar.gz"
       }
     },
     "nixpkgs": {
