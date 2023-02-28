@@ -3,25 +3,25 @@
     "golangci-lint-x86_64-darwin": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-0xcARoNqS/7IoMbVcSGMDgplDpmTabBH2n8Wtt/5IZk=",
+        "narHash": "sha256-xkPgMdZJIQh2+JLyYeEOCQjzmBjUNS+iaPlSLx/frKo=",
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-amd64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-amd64.tar.gz"
       }
     },
     "golangci-lint-x86_64-linux": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-rl6nzwDl0GMhvdpejFgo2sTCwFE2NdbdqNut7cHvWA0=",
+        "narHash": "sha256-liYnjdpH95PJ5ZLWxENiNplVXcUgUHdW9gVMlvKc8Qg=",
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-linux-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-linux-amd64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-linux-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-linux-amd64.tar.gz"
       }
     },
     "nixpkgs": {
