@@ -2,7 +2,7 @@
   description = "A flake defining golangci-linux binary package via GitHub releases";
 
   inputs = {
-    nixpkgs.url = github:NixOS/nixpkgs/nixos-22.05;
+    nixpkgs.url = github:NixOS/nixpkgs/nixos-22.11;
     golangci-lint-x86_64-linux = {
       url = "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-linux-amd64.tar.gz";
       flake = false;
