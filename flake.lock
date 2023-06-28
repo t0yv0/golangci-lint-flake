@@ -3,13 +3,13 @@
     "golangci-lint-x86_64-darwin": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-xkPgMdZJIQh2+JLyYeEOCQjzmBjUNS+iaPlSLx/frKo=",
+        "narHash": "sha256-VkwgMJqW9bh0bH+9irKYs011cEfwQCXhafNao7VZUBI=",
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-arm64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-amd64.tar.gz"
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-arm64.tar.gz"
       }
     },
     "golangci-lint-x86_64-linux": {
