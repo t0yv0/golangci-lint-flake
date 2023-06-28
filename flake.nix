@@ -4,11 +4,11 @@
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs/nixos-22.11;
     golangci-lint-x86_64-linux = {
-      url = "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-linux-amd64.tar.gz";
+      url = "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-linux-amd64.tar.gz";
       flake = false;
     };
     golangci-lint-x86_64-darwin = {
-      url = "https://github.com/golangci/golangci-lint/releases/download/v1.51.2/golangci-lint-1.51.2-darwin-arm64.tar.gz";
+      url = "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-arm64.tar.gz";
       flake = false;
     };
   };
@@ -25,8 +25,8 @@
         let
           pkgs = import nixpkgs { system = system; };
         in pkgs.stdenv.mkDerivation {
-          name = "golangci-lint-1.51.2";
-          version = "1.51.2";
+          name = "golangci-lint-1.53.3";
+          version = "1.53.3";
           src = src;
           installPhase = "mkdir -p $out/bin && cp $src/golangci-lint $out/bin/";
         };
