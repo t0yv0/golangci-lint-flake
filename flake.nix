@@ -8,6 +8,10 @@
       flake = false;
     };
     golangci-lint-x86_64-darwin = {
+      url = "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-amd64.tar.gz";
+      flake = false;
+    };
+    golangci-lint-aarch64-darwin = {
       url = "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-arm64.tar.gz";
       flake = false;
     };
@@ -18,6 +22,7 @@
       nixpkgs,
       golangci-lint-x86_64-linux,
       golangci-lint-x86_64-darwin,
+      golangci-lint-aarch64-darwin,
     }:
 
     let
@@ -41,7 +46,7 @@
       };
       packages.aarch64-darwin.default = package {
         system = "aarch64-darwin";
-        src = golangci-lint-x86_64-darwin;
+        src = golangci-lint-aarch64-darwin;
       };
     };
 }

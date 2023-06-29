@@ -1,6 +1,6 @@
 {
   "nodes": {
-    "golangci-lint-x86_64-darwin": {
+    "golangci-lint-aarch64-darwin": {
       "flake": false,
       "locked": {
         "narHash": "sha256-AhdOHc4T53KsWXQ5nSRsuY/KcWa6YO3wjzi50BJMOG8=",
@@ -10,6 +10,18 @@
       "original": {
         "type": "tarball",
         "url": "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-arm64.tar.gz"
+      }
+    },
+    "golangci-lint-x86_64-darwin": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-z1QTS2PlYhZywnJnxR6tJoAVGyuWs5K5EllrP4EWYi8=",
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-amd64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v1.53.3/golangci-lint-1.53.3-darwin-amd64.tar.gz"
       }
     },
     "golangci-lint-x86_64-linux": {
@@ -42,6 +54,7 @@
     },
     "root": {
       "inputs": {
+        "golangci-lint-aarch64-darwin": "golangci-lint-aarch64-darwin",
         "golangci-lint-x86_64-darwin": "golangci-lint-x86_64-darwin",
         "golangci-lint-x86_64-linux": "golangci-lint-x86_64-linux",
         "nixpkgs": "nixpkgs"
